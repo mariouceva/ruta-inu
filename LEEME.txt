@@ -1,0 +1,20 @@
+RUTA DE INÚ - mapa interactivo (sitio estático, sin servidor)
+
+Para publicarlo gratis y que funcione en el móvil, usa UNA de estas opciones:
+
+1) Netlify Drop (la más rápida, sin cuenta para probar)
+   - Entra a app.netlify.com/drop
+   - Descomprime este zip y arrastra la carpeta completa a la página.
+   - Te da un enlace https://....netlify.app
+
+2) Cloudflare Pages (gratis)
+   - Workers y Pages > Crear > Pages > Subir activos directos
+   - Sube la carpeta y publica.
+
+3) GitHub Pages (gratis)
+   - Crea un repositorio público y sube todos los archivos (index.html en la raíz).
+   - Settings > Pages > Deploy from a branch > main / (root).
+
+Archivos: index.html + imágenes (mapa.jpg, fotos de paradas, íconos de tramos t1..t8.png, logos.jpg).
+Los textos de cada parada se editan en index.html, en la lista PARADAS.
+Aviso del mapa original: no implica validación de acceso a lugares ni habilitación de infraestructura.
